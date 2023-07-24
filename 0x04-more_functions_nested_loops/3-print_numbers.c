@@ -1,11 +1,9 @@
 #include "main.h"
-#include <string.h>
 #include <stdio.h>
-#include <stdlib.h>
 
 /**
- * print_numbers - print numbers from from 0 to 9
- * Return:Always 0
+ * print_numbers - print 0-9
+ * return: void
  */
 
 void print_numbers(void)
@@ -14,7 +12,7 @@ void print_numbers(void)
 
 	for (c = '0'; c <= '9'; c++)
 	{
-		 putchar(c);
+	putchar(c);
 	}
-	 putchar('\n');
+	putchar('\n');
 }
