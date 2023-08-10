@@ -50,9 +50,9 @@ void errors(void)
 }
 
 /**
- * main - multiplies two positive 
- * @argc: number 
- * @argv: array rguments
+ * main - multiplies two positive numbers
+ * @argc: number of arguments
+ * @argv: array of arguments
  *
  * Return: always 0 (Success)
  */
@@ -60,7 +60,6 @@ int main(int argc, char *argv[])
 {
 	char *s1, *s2;
 	int len1, len2, len, i, carry, digit1, digit2, *result, a = 0;
-
 
 	s1 = argv[1], s2 = argv[2];
 	if (argc != 3 || !is_digit(s1) || !is_digit(s2))
