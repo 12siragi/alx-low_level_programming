@@ -1,11 +1,20 @@
 #include "main.h"
 /**
- * main - Entry point
- *
- * Return: always 0
+ * main - print _putchar
+ * is written by mbah
+ * Return: 0
  */
+
 int main(void)
 {
-	write(1, "_putchar\n", strlen("_putchar") + 1);
+	putchar('_');
+	putchar('p');
+	putchar('u');
+	putchar('t');
+	putchar('c');
+	putchar('h');
+	putchar('a');
+	putchar('r');
+	putchar('\n');
 	return (0);
 }
