@@ -1,1 +1,1 @@
-static_labraries
+readme.mdstaticlibrary
